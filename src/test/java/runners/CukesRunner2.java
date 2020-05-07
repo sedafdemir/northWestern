@@ -15,11 +15,9 @@ import utilities.ExtentReport;
         tags = "@saucedemo"
 )
 
-public class CukesRunner {
-
+public class CukesRunner2 {
     @AfterClass
     public static void tearDown(){
         ExtentReport.endReport();
     }
-
 }

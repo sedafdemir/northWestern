@@ -1,0 +1,18 @@
+Some notes about project:
+
+1- Headless or head option is placed in configuration.properties with "headless" key.
+   In order to use head or headless you must assign your own Chrome.exe file path in the configuration properties.
+   In addition, you may need to update your Chrome browser.
+
+2- I wrote this project with Java compiler 13 Version. When you import the project, you may need to
+check your IDE' s compiler settings.
+
+3- In order to run parallel test I added Masterthought Maven-Cucumber-Reporting plugin.
+But, when I run the test it throws an error relevant with this plugin. I couldn't fix it.
+
+4- I couldn't create a Docker images.
+
+
+
+
+
